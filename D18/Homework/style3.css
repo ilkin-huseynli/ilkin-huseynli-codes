@@ -1,0 +1,16 @@
+p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+body{
+    background-image: url(./real\ madrid.png), url(./qarabag.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 20%, 30%;
+    background-position: left top, right top;
+}
+
+*{
+    text-align: center;
+}

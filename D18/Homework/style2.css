@@ -1,0 +1,30 @@
+body{
+    background-image:url(./morty.png), url(./rickk.png);
+    background-size: 20%, 20%;
+    background-repeat: no-repeat;
+    background-position:left top, right bottom      ;
+    background-attachment: fixed;
+}
+
+*{
+    text-align: center;
+}
+
+#p1{
+    color: gray;
+    margin-top: -20px;
+    margin-bottom: 35px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    border: none;
+    background-color: red;
+    padding: 7px;
+    border-radius: 15px;
+    width: 9vw;
+    color: white;
+}

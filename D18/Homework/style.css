@@ -1,0 +1,38 @@
+body{
+    background-image: url(./switzerland.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+*{
+    margin-left: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 15vw;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-top: -45px;
+    font-size: 45px;
+}
+
+p{
+    margin-top: -20px;
+}
+
+button{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 8px;
+    width: fit-content;
+    border: none;
+    margin-left: -2px;
+}
