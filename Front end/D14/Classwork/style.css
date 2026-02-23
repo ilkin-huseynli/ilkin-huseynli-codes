@@ -1,0 +1,36 @@
+*{
+    width: 50vw;
+}
+
+#solid{
+    border: 3px solid;
+}
+
+#dotted{
+    border: 3px dotted;
+}
+
+#dashed{
+    border: 3px dashed;
+}
+
+#double{
+    border: 3px double  ;
+}
+
+#ridge{
+    border: 3px ridge;
+}
+
+#groove{
+    border: 3px groove;
+}
+
+#inset{
+    border: 3px inset;
+}
+
+#outset{
+    border: 3px outset;
+}
+

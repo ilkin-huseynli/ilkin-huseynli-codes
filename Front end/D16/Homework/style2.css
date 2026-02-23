@@ -1,0 +1,108 @@
+h1{
+    color: green;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 0.6;
+}
+
+#red{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    margin-left: 34.5vw;
+}
+
+#green{
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+    margin-left: 34.5vw;
+}
+
+#blue{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    margin-left: 34.5vw;
+}
+
+#heading2{
+    text-align: center;
+    margin-bottom: -25px;
+}
+
+#heading1{
+    margin-left: 35vw;
+}
+
+#red2{
+    text-align: center;
+    margin-top: -77px;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-style: double;
+}
+
+#green2{
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: green;
+    text-decoration-style: double;
+}
+
+#blue2{
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    text-decoration-style: double;
+}
+
+#heading3{
+    margin-left: 58vw;
+    margin-top: -103px;
+}
+
+#red3{
+    margin-left: 57.3vw;
+    text-decoration: overline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+}
+
+#green3{
+    margin-left: 57.3vw;
+    text-decoration: overline;
+    text-decoration-color: green;
+    text-decoration-style: solid;
+}
+
+#blue3{
+    margin-left: 57.3vw;
+    text-decoration: overline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+}
+
+a{
+    margin-left: 45.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: navy;
+}
+
+a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+body{
+    background-image: url(./duabi.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+div{
+    background-color: rgb(255, 255, 255, 0.6);
+    width: 20vw;
+    height: 11vw;
+    margin-top: 15vw;
+    margin-left: 38vw;
+}
+
+p{
+    line-height: 1.4;
+    padding-top: 15px;
+    padding-left: 55px;
+}
+
+a{
+    margin-left: 43.7vw;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+}
+
+a:hover{
+    text-decoration: underline dashed;
+}   

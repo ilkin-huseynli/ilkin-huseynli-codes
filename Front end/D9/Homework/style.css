@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    background-color: rgb(127, 37, 96);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(105, 0, 0);
+}
+
+p{
+    font-family: "Cabin", sans-serif;
+    text-align: center;
+    font-size: 23px;
+}
+
+.oglanlar{
+    color:rgb(72, 0, 255);
+}
+
+.oglanlar:hover{
+    color: green;
+    font-style: italic;
+}
+
+.qizlar{
+    color: pink;
+}
+
+.qizlar:hover{
+    color: red;
+    font-style: italic;
+}

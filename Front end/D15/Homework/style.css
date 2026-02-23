@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: mediumblue;
+}
+
+div{
+    width: 60vw;
+}
+
+#sekil1{
+    background-color: lightskyblue;
+    border-radius: 50%;
+    width: 20vw;
+    float: left;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    line-height: 2;
+    color: darkblue ;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: deepskyblue;
+}
+
+mark{
+    background-color: blue;
+    color: deepskyblue;
+}
+
+hr{
+    border-color: lightskyblue; 
+}
+
+#sekil2{
+    width: 60px;
+    margin-left: 43vw;
+    margin-top: 20px;
+    float: left;
+}
+
+#arrow{
+    margin-top: 20px;
+}
+
+a{
+    margin-top: 35px;
+    float: left;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    color: blue;
+    font-style: italic;
+}

@@ -1,0 +1,51 @@
+.bluebg{
+    background-color: blue;
+}
+
+.greenbg{
+    background-color: green;
+}
+
+.yellowbg{
+    background-color: yellow;
+}
+
+.blackbg{
+    background-color: black;
+}
+
+.aquabg{
+    background-color: aqua;
+}
+
+.redletters{
+    color: red;
+}
+
+.pinkletters{
+    color: pink;
+}
+
+.brownletters{
+    color: brown;
+}
+
+.aqualetters{
+    color: aqua;
+}
+
+.violetletters{
+    color: violet;
+}
+
+.darkslategreybg{
+    background-color: darkslategrey;
+}
+
+.purplebg{
+    background-color: purple;
+}
+
+#greenletters{
+    color: green
+}

@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: green;
+}
+
+p{
+    text-align: center;
+}
+
+#overline{
+    text-decoration: overline;
+    text-decoration-color: brown;
+    text-decoration-style: solid;
+}
+
+#line-through{
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    text-decoration-style: double;
+}
+
+#underline{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
