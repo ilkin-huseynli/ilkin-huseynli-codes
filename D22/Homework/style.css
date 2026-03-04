@@ -1,0 +1,22 @@
+img{
+    width: 10vw;
+}
+
+table{
+    border-collapse: collapse;
+    width: 40vw;
+}
+
+thead{
+    background-color: lightskyblue;
+}
+
+th{
+    height: 30px;
+    border: solid black 2px;
+    text-align: left;
+}
+
+td{
+    border: solid black 2px;
+}
