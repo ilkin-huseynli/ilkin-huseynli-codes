@@ -1,0 +1,31 @@
+body{
+    background-image: url(./image.jpeg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: gray;
+}
+
+div{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    width: 18vw;
+    padding: 10px;
+    background-color: black;
+    margin: 0;
+    margin-left: -5px;
+}
+
+p{
+    border: solid 1px white;
+    padding: 10px;
+    width: 17vw;
+}
+
+p:hover{
+    background-color: black;
+}
