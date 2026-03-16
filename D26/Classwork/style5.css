@@ -1,0 +1,27 @@
+div{
+    width: 80vw;
+}
+
+p{
+    text-align: justify;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color: darkcyan;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(45, 106, 135);
+    padding: 10px;
+    width: 15vw;
+}
+
+a{
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 30px;
+}
