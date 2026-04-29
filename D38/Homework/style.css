@@ -1,0 +1,154 @@
+#news{
+    margin-top: -20px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 3vw;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    margin-left: 3vw;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    display: flex;
+}
+
+li{
+    margin-right: 50px;
+    margin-top: -70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: red;
+    padding: 2px;
+}
+
+input{
+    background-color: red;
+    border: 1px white solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.container{
+    display: flex;
+    margin-left: 3vw;
+}
+
+.container p{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-right: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container p:hover{
+    text-decoration: underline;
+}
+
+#button1{
+    border: solid  rgb(191, 0, 0);
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 9vw;
+    margin-left: 5vw;
+    margin-top: 3vw;
+}
+
+#button2{
+    border: solid  rgb(0, 21, 97);
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    width: 9vw;
+    margin-top: 10px;
+    margin-left: 5vw;
+}
+
+#lorem{
+    margin-left: 8vw;
+}
+
+.buttonlorem{
+    display: flex;
+}
+
+.buttonlorem p{
+    margin-top: 55px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button2p{
+    display: flex;
+}
+
+.button2p p{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#breakingnews{
+    width: 40vw;
+    height: 19vh;
+    float: right;
+    margin-top: -100px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+#office{
+    width: 25vw;
+    border-radius: 10px;
+    margin-left: 5vw;
+    margin-top: 50px;
+}
+
+img{
+   box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+   transition: 0.3s;
+}
+
+img:hover{
+    transform: translateY(-5px);
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-left: 5vw;
+}
+
+#finance{
+    border-radius: 10px;
+    width: 10vw;
+    height: 20vh;
+}
+
+.sector{
+    margin-left: 35vw;
+    margin-top: -28vw;
+    height: 26vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.sector p{
+    line-height: 2;
+    margin-left: 20px;
+}
