@@ -1,0 +1,78 @@
+body{
+    background-image: url(./gettyimages-1351448079-2048x2048.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img{
+    width: 5vw;
+    margin-left: 15vw;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+#developia{
+    margin-left: 50vw;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    margin-left: 5vw;
+    margin-top: 10vw;
+    color: white;
+}
+
+#lorem{
+    margin-left: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline dotted black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+i{
+    visibility: hidden;
+}
+
+@media only screen and (max-width:600px) {
+    .flex{
+        display: none;
+    }
+
+    h1{
+        margin-top: 40vw;
+        margin-bottom: 10vw;
+        font-size: 6vw;
+    }
+
+    #lorem{
+        margin-bottom: 10vw;
+        width: 60vw;
+    }
+
+    i{
+       visibility: visible;
+       font-size: 4vw;
+       float: right;
+       margin-top: -86vw;
+    }
+
+    
+}
