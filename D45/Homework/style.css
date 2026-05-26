@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.left-texts{
+    margin-left: 5vw;
+    margin-top: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+}
+
+.left-texts h1{
+    font-size: 40px;
+}
+
+.left-texts p{
+    margin-top: 9vw;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left-texts h2{
+    margin-top: 9vw;
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: rgba(65, 64, 64, 0.5);
+    width: 15vw;
+    padding-left: 1.5vw;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.login{
+    background-color: rgba(38, 38, 38, 0.5);
+    width: 40vw;
+    height: 100vh;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    margin-left: 4vw;
+}
+
+.login #language{
+    text-align: center;
+    margin-top: 1vw;
+    color: rgb(180, 180, 180);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+
+#language::before{
+    content: "\f7a2";
+    font-family: "Font Awesome 7 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+#language::after{
+    content: "\f107";
+    font-family: "Font Awesome 7 Free";
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.login h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 2vw auto;
+}
+
+.login-inputs:focus{
+    outline: 1px solid black;
+}
+
+.login-inputs{
+    margin-top: 1.5vw;
+    border: 1px solid black;
+    background: transparent;
+    padding: 9px;
+    /* muellim bu insetli box shadowu ai istifade ederek etmisem */
+    box-shadow: 
+    inset 0 4px 8px rgba(0, 0, 0, 0.35), 
+    inset 0 -1px 2px rgba(255, 255, 255, 0.1),
+    0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#checkbox{
+    margin-top: 2vw;
+    margin-left: -21vw;
+}
+
+input[type="checkbox"]{
+    accent-color: gray;
+    cursor: pointer;
+}
+
+small{
+    font-size: 12px;
+    color: white;
+    position: relative;
+    left: 3.5vw;
+    top: -1vw;
+}
+
+#button1{
+    padding: 9px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(81, 145, 187, 0.5);
+    color: white;
+    font-size: 14px;
+}
+
+hr{
+    margin-top: 2vw;
+    width: 10vw;
+}
+
+.or{
+    display: flex;
+}
+
+#hr2{
+    position: relative;
+    left: 3vw;
+}
+
+i{
+    float: left;
+}
+
+h2{
+    color: white;
+    font-weight: lighter;
+    position: relative;
+    top: 1vw;
+    left: 1.5vw;
+}
+
+#button2{
+    border: none;
+    background-color: rgba(107, 106, 106, 0.5);
+    color: white;
+    padding: 9px;
+    margin-top: 2vw;
+    border-radius: 10px;
+    font-size: 14px;
+}
