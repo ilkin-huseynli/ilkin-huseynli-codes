@@ -9,19 +9,35 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <li style="margin-right: 45vw;">MySite</li>
+        <ul id="nav">
+            <li id="logo-li"><img id="img1" src="/barcelona.png" alt=""></li>
             <li>Ana Səhifə</li>
             <li>Haqqımızda</li>
-            <li>Xidmətlər</li>
-            <li>Əlaqə</li>
+            <li id="drop-hover">Xidmətlər
+                <ul id="drop">
+                    <li>Front End</li>
+                    <li>Back End</li>
+                    <li style="border-bottom: none;">Full Stack</li>
+                </ul>
+            </li>
+            <li id="drop2-hover">Əlaqə
+                <ul id="drop2">
+                    <li>Email</li>
+                    <li id="drop3-hover" style="border-bottom: none;">Filiallar
+                        <ul id="drop3">
+                            <li>Narimanov</li>
+                            <li>Sahil</li>
+                            <li style="border-bottom: none;">Nizami</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </nav>
-    
     <main>
         <div class="container">
             <button>.ONLINE</button>
-            <img src="./barcelona.png" alt="barcelona-logo">
+            <img id="img2" src="./barcelona.png" alt="barcelona-logo">
             <div class="name-job">
                 <h2>Ilkin Huseynli</h2>
                 <p>Frontend Developer</p>
@@ -29,9 +45,9 @@
             <hr>
             <small class="small1">Mən web texnologiyalarla maraqlanıram və <br> <span> müasir dizaynlı saytlar yaradıram. </span></small> <br>
             <div class="icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
     </main>

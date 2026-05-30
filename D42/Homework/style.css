@@ -4,11 +4,25 @@
     box-sizing: border-box;
 }
 
-ul{
+#nav{
     display: flex;
     list-style-type: none;
     background-color: rgb(89, 89, 228);
     padding: 15px;
+    align-items: center;
+}
+
+#nav li{
+    position: relative;
+    top: 14px;
+}
+
+body{
+    overflow: hidden;
+}
+
+#img1{
+    width: 3vw;
 }
 
 li{
@@ -41,7 +55,7 @@ button{
     margin-right: 15px;
 }
 
-img{
+#img2{
     width: 12vw;
     position: relative;
     top: 3vw;
@@ -66,6 +80,11 @@ hr{
     width: 20vw;
     margin-left: 2.5vw;
     margin-top: 15px;
+}
+
+#logo-li {
+    margin-left: 0;
+    margin-right: 47vw;
 }
 
 .small1{
@@ -108,4 +127,97 @@ footer{
     box-shadow: 0 0 15px rgb(200, 192, 192);
     margin-right: 2vw;
     margin-top: 2vw;
+}
+
+#drop{
+    position: absolute;
+    background-color:  rgb(89, 89, 228);
+    width: 11vw;
+    line-height: 1.5;
+    right: -3vw;
+    list-style-type: none;
+    top: 33px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0.3s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#drop-hover:hover #drop{
+    visibility: visible;
+    opacity: 1;
+}
+
+#drop li{
+    position: relative;
+    right: 28px;
+    padding-top: 10px;
+    top: -8px;
+    border-bottom: 1px solid white;
+}
+
+#drop2{
+    position: absolute;
+    background-color:  rgb(89, 89, 228);
+    width: 6vw;
+    line-height: 1.5;
+    right: -1.5vw;
+    list-style-type: none;
+    top: 33px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0.3s;
+    border-bottom-left-radius: 10px;
+}
+
+#drop2-hover:hover #drop2{
+    visibility: visible;
+    opacity: 1;
+}
+
+#drop2 li{
+    position: relative;
+    right: 3.5vw;
+    padding-top: 10px;
+    top: -8px;
+    border-bottom: 1px solid white;
+}
+
+#drop3{
+    position: absolute;
+    background-color:  rgb(89, 89, 228);
+    width: 9vw;
+    line-height: 1.5;
+    right: -10vw;
+    list-style-type: none;
+    top: 38px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0.3s;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#drop3-hover:hover #drop3{
+    visibility: visible;
+    opacity: 1;
+}
+
+#drop3 li{
+    border-bottom: 1px solid white;
+}
+
+a{
+    color: black;
 }
