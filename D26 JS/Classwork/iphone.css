@@ -1,0 +1,31 @@
+body { 
+    background-color: rgb(238, 244, 255);
+    font-family: "Segoe UI", Arial, sans-serif; 
+}
+
+.page-title { 
+    font-weight: 800; 
+    color: rgb(13, 110, 253); 
+}
+
+.phone-img { 
+    width: 100%;
+    max-height: 450px; 
+    object-fit: cover; 
+}
+
+.lead { 
+    color: rgb(52, 58, 64); 
+}
+
+ul li { 
+    margin-bottom: 6px; 
+}
+
+.btn { 
+    margin-top: 10px; 
+}
+
+.site-footer { 
+    background: rgb(33, 37, 41);
+    color: rgb(255, 255, 255); }

@@ -1,0 +1,47 @@
+body { 
+    background-color: rgb(244, 246, 249);
+    font-family: "Segoe UI", Arial, sans-serif;
+ }
+
+.navbar-brand { 
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.slide-img { 
+    height: 450px;
+    object-fit: cover;
+    filter: brightness(0.65); 
+}
+
+.carousel-caption h2 { 
+    font-size: 2.5rem;
+    font-weight: 700; }
+
+.section-title {
+    font-weight: 700;
+    color: rgb(33, 37, 41); 
+}
+
+.brand-card { 
+    border: none; 
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform .25s,
+    box-shadow .25s; 
+}
+
+.brand-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,.2) !important; 
+}
+
+.brand-card img {
+    height: 250px;
+    object-fit: cover; 
+}
+
+.site-footer {
+    background: rgb(33, 37, 41);
+    color: rgb(255, 255, 255); 
+}
