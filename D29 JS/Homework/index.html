@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-box">
+        <label for="nameInput">Enter your name</label>
+        <input type="text" id="nameInput">
+        <p id="nameInfo" class="info red">Name must be at least 3 characters</p>
+
+        <label for="ageInput">Enter your age</label>
+        <input type="number" id="ageInput">
+        <p id="ageInfo" class="info red">Age must be at least 18</p>
+
+        <button id="addBtn">Add</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Userage</th>
+                <th>Index</th>
+                <th>Operation</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
